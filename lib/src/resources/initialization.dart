@@ -1,0 +1,39 @@
+class Initialization{
+  static final url = "http://biavarzesh.ir";
+
+  static final String logIn = url+"/api/auth/club/send_activation_code";
+  static final String register = url+"/api/auth/club/register";
+  static final String activationCode = url+"/api/auth/club/check_activation_code";
+  static final String salonRecord = url+"/api/biav/v1/club/hall/store";
+  static final String getSalons = url+"/api/biav/v1/club/hall";
+  static final String getSalonRating = url+"/api/biav/v1/club/hall_rating";
+  static final String postEditSalon = url+"/api/biav/v1/club/hall/update";
+  static final String postDeleteImage = url+"/api/biav/v1/club/hall_images/delete";
+  static final String postAddImage = url+"/api/biav/v1/club/hall_images/store";
+  static final String getSalonAdditions = url+"/api/biav/v1/club/hall_extra";
+  static final String postSalonAdditionsStore = url+"/api/biav/v1/club/hall_extra/store";
+  static final String postSalonAdditionsEdit = url+"/api/biav/v1/club/hall_extra/update";
+  static final String postSalonAdditionsDelete= url+"/api/biav/v1/club/hall_extra/delete";
+  static final String getSalonEditData = url+"/api/biav/v1/club/hall/show";
+  static final String getWeeklySchedule = url+"/api/biav/v1/club/sans/reserves";
+  static final String getWSHours = url+"/api/biav/v1/club/sans/hours";
+  static final String postWeeklySchedule = url+"/api/biav/v1/club/reserve/update";
+  static final String postDiscountCode = url+"/api/biav/v1/club/hall_discount_group/store";
+  static final String getDiscountCode = url+"/api/biav/v1/club/hall_discount_group";
+  static final String getHallDiscountItem = url+"/api/biav/v1/club/hall_discount_item";
+  static final String postStoreHallDiscountManagement = url+"/api/biav/v1/club/hall_discount_plan/store";
+  static final String postDeleteHallDiscountManagement = url+"/api/biav/v1/club/hall_discount_plan/delete";
+  static final String getHallDiscountManagement = url+"/api/biav/v1/club/hall_discount_plan";
+  static final String getReservation = url+"/api/biav/v1/club/reserve";
+  static final String getCredit = url+"/api/biav/v1/club/credit";
+  static final String getCheckOut = url+"/api/biav/v1/club/payoff";
+  static final String getSalonContract = url+"/api/biav/v1/club/contract";
+  static final String postContractDelete = url+"/api/biav/v1/club/contract/delete";
+  static final String postContractReserveDelete = url+"/api/biav/v1/club/contract/reserve_delete";
+  static final String getSansGender = url+"/api/biav/v1/club/sans/gender";
+  static final String postSansGenderUpdate = url+"/api/biav/v1/club/sans/gender/update";
+  static final String getEditProfile = url+"/api/biav/v1/club/club/show";
+  static final String postEditNameProfile = url+"/api/biav/v1/club/club/update";
+  static final String postEditMobileProfile = url+"/api/biav/v1/club/club/update_mobile";
+  static final String getSupportAndAboutUs = url+"/api/blog/v1/end_user/page";
+}
